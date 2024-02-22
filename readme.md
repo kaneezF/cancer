@@ -1,6 +1,28 @@
-# Lung Disease Prediction
+# Lung Disease Prediction 🫁
 
 This Python script uses a Random Forest Classifier to predict lung disease levels based on various health factors.
+It is paired with a friendly web ui supported by streamlit
+
+## Setup 
+- Install pipenv to fetch all dependencies
+```
+pip install pipenv
+```
+```
+git clone https://this_repository/cancer
+cd cancer
+pipenv install
+```
+- Clone the repository and install dependencies
+- Activate the virutal environment
+```
+pipenv shell
+```
+- There are two files `magic_model.py` and `lung.py`, run streamlit run `lung.py` to start the web application
+```
+streamlit run lung.py
+```
+
 
 ## Code Explanation
 

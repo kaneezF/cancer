@@ -204,7 +204,7 @@ if __name__ == "__main__":
     accuracy_selected = model.evaluate_model_performance(X_test_selected)
 
     print("Accuracy with selected features:", accuracy_selected)
-    user_input = [50, 2, 2, 0, 2, 2, 0, 0, 1, 0, 0, 2, 0, 0, 1, 0, 2, 0, 2, 1, 2]
+    user_input = [50, 2, 2, 2, 2, 2, 0, 0, 1, 0, 1, 2, 0, 0, 1, 0, 2, 0, 2, 1, 2]
     other_features = [0] * (model.X_train.shape[1] - len(user_input))
 
     model_input = np.array([user_input + other_features])
